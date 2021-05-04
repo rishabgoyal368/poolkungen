@@ -8,13 +8,9 @@
 <meta name="apple-touch-fullscreen" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta content="" name="author"/>
-<meta content="atlas is Bootstrap 4 based admin panel.It comes with 100's widgets,charts and icons" name="description"/>
+
 <meta property="og:locale" content="en_US"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title"
-      content="atlas is Bootstrap 4 based admin panel.It comes with 100's widgets,charts and icons"/>
-<meta property="og:description"
-      content="atlas is Bootstrap 4 based admin panel.It comes with 100's widgets,charts and icons"/>
 <meta property="og:image"
       content="https://cdn.dribbble.com/users/180706/screenshots/5424805/the_sceens_-_mobile_perspective_mockup_3_-_by_tranmautritam.jpg"/>
 <meta property="og:site_name" content="atlas "/>
