@@ -17,6 +17,10 @@ Route::get('/', function () {
 	return view('user.index');
 });
 
+Route::get('/faq', function () {
+	return view('user.index');
+});
+
 Route::get('about-us', function () {
 	return view('user.about-us');
 });
@@ -41,9 +45,6 @@ Route::get('pool-shape', function () {
 	return view('user.pool-shape');
 });
 
-Route::get('pool-shape', function () {
-	return view('user.pool-shape');
-});
 
 Route::get('products', function () {
 	return view('user.products');
