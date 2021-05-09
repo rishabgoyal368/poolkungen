@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from atmos.atomui.com/default/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Feb 2021 16:40:58 GMT -->
-<!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-touch-fullscreen" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta content="" name="author" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <title>{{env('APP_NAME')}} | @yield('title')</title>
     <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
     <link rel="icon" href="assets/img/logo.png" type="image/png" sizes="16x16">

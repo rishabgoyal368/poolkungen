@@ -73,6 +73,11 @@ Route::group(['prefix'=>'admin','middleware'=>'CheckAdminAuth'],function()
 	//------Dahboard---------------------------------------------------------------------------
 	Route::match(['get','post'],'/reset-password','AuthController@reset_password');
     Route::match(['get','post'],'/my-profile','AuthController@my_profile');
+
+	Route::get('/manage-inventory','Admin\InventoryController@list');
+	Route::get('/edit-inventory/{id}','Admin\InventoryController@edit');
+	Route::post('/save-inventory','Admin\InventoryController@edit');
+	Route::post('/delete-image','Admin\InventoryController@deleteImage');
 });
 
 

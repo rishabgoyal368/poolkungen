@@ -4,3 +4,13 @@
 #back_redirect{
     color: white;
 }
+.inventory_image img{
+    width: 100%;
+}
+.inventory_image_block{
+    text-align: center;
+}
+.inventory_image_delete{
+    margin:10%;
+    color: white;
+}

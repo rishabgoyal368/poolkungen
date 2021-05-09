@@ -18,7 +18,7 @@
         <!--submenu-->
         <ul class="sub-menu">
             <li class="menu-item ">
-                <a href="{{url('admin/manage-users')}}" class=' menu-link'>
+                <a href="{{url('admin/manage-inventory')}}" class=' menu-link'>
                     <span class="menu-label">
                         <span class="menu-name">Inventory</span>
                     </span>
